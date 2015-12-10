@@ -1,0 +1,464 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic); 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+    height:100%;
+    font: 14px/18px 'Times New Roman', Times, sens-serif;
+    background-color:#FFF;
+}
+#wrapper{
+width:1023px;
+margin:0 auto;
+
+}
+
+.box{
+height:400px;
+width:1400px;
+margin:0 auto;
+}
+
+header{
+padding:50px 0 25px 0;
+/*border:2px solid #000000;*/
+}
+/*NAVIGATION*/
+nav{
+float:right;
+}
+
+nav li{
+display:inline-block;
+float:left;
+margin-left:42px;
+padding:10px 0;
+height:46px;
+}
+nav li:hover{
+border-bottom:4px solid #3070a8;
+color:#3070a8;
+}
+
+nav a{
+display:block;
+text-transform:uppercase;
+text-decoration:none;
+font-family: 'Open Sans', sans-serif;
+color:#989898;
+outline:none;
+}
+nav a:hover{
+color:#3070a8;
+}
+
+
+/*END NAVIGATION*/
+
+/*BANNER*/
+
+#home{
+height:440px;
+background:#6fbaf3 url(../images/bg.jpg) no-repeat;
+margin:0 auto;
+text-align:center;
+color:#FFFFFF;
+padding-top:150px;
+}
+.btn{
+background-image:none;
+background-color:transparent;
+color:#FFFFFF;
+width:250px;
+height:60px;
+@font-family: 'Open Sans', sans-serif;
+font-weight:bold;
+cursor:pointer;
+}
+h4{
+font-family:'Futura Book', sans-serif;
+font-size:25px;
+text-align:center;
+}
+#home h1{
+padding-top:25px;
+font:bold 40px 'Futura Book', sans-serif;
+text-transform:uppercase;
+line-height:1;
+}
+#home p{
+font-style: italic;
+font-size:15px;
+padding:40px 0;
+}
+
+/*END BANNER*/
+
+/*SERVICES*/
+#services{
+padding-bottom:10px;
+}
+.title{
+text-transform:uppercase;
+font: 26px Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+text-transform:uppercase;
+color:#41525c;
+text-align:center;
+padding:70px;
+}
+.col{
+margin-top:-80px;
+}
+
+.col-1, .col-2, .col-3{
+width:33%;
+height:450px;
+float:left;
+}
+.button{
+display: inline-block;
+margin:80px 100px 35px 100px;
+width:140px;
+height:140px;
+cursor:pointer;
+border-radius: 70px;
+-moz-border-radius: 70px;
+-webkit-border-radius: 70px;
+}
+.btn-protect{
+background: grey url(../images/btn-protect.jpg) no-repeat;
+}
+.btn-alert{
+background:grey url(../images/btn-alert.jpg) no-repeat;
+}
+.btn-detect{
+background:grey url(../images/btn-detect.jpg) no-repeat;
+}
+.col h1 {
+font-family: "Futura Book",sans-serif;
+font-size: 25pt;
+color:#3070a8;
+font-weight:normal;
+text-transform:uppercase;
+text-align:center;
+}
+.col p{
+padding-top:30px;
+font:10pt  'Open Sans', sans-serif;
+text-align:center;
+line-height:25px;
+color:#989898;
+}
+/* END SERVICES*/
+
+/*MIDDLE*/
+#middle{
+height:576px;
+background: grey url(../images/middle-bg.jpg) no-repeat;
+color:#FFFFFF;
+}
+#middle h3{
+text-transform:uppercase;
+font: 26px Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+color:#ee8129;
+text-align:left;
+padding-top:85px;
+margin-left:180px;
+line-height:50px;
+}
+.midd{
+font:17px 'Open Sans';
+font-style:italic;
+margin-left:180px;
+}
+.middle-lst{
+margin-left:180px;
+padding:35px;
+font:11pt 'Open Sans', sans-serif;
+color:#989898;
+}
+.middle-lst li{
+padding:15px;
+}
+.active1{
+color:#3070a8;
+}
+/*PRICING*/
+#price{
+height:533px;
+}
+
+.prc{
+
+border:1px solid #989898;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+}
+.standart, .best, .ultimate{
+width:290px;
+height:440px;
+background-color:#FFFFFF;
+float:left;
+position:relative;
+left:70px;
+margin:1px;
+z-index:0;
+
+}
+.ultimate{
+float:right;
+left:-70px;
+}
+.best:hover{
+z-index:1;
+width:297px;
+height:466px;
+left:65px;
+top:-10px;
+border:6px solid #ee8129;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.pricing-title{
+color:#FFFFFF;
+font-weight:bold;
+text-transform:uppercase;
+padding:28px 0 21px 0px;
+}
+.blue{ background-color:#2bc2d5;}
+.orange{background-color:#ee8129;}
+.green{background-color:#00b89a;}
+
+.icon-g{
+font-family: "Futura Book",sans-serif;
+font-size: 15pt;
+color:#41525c;
+font-weight:normal;
+text-transform:uppercase;
+text-align:center;
+padding-top:20px;
+}
+
+.sup{
+position:relative;
+font-size:0.3em;
+bottom:45px;
+}
+.sub{
+vertical-align:sub;
+font-size:0.2em;
+font-weight:normal;
+text-transform:none;
+}
+
+.number h1{
+font:bold 60pt 'Futura BT', sans-serif;
+text-transform:uppercase;
+color:#41525c;
+text-align:center;
+padding-top:11px;
+}
+.list ul{
+list-style:none;
+padding:10px;
+font-family:'Calibri';
+font-weight:bold;
+font-size:8pt;
+}
+.list li{
+border-bottom:1px solid #FFFFFF;
+height:25px;
+padding:5px;
+}
+
+.list li:before{
+content:url(../images/li-style.png);
+padding:19px;
+
+}
+
+.list ul li:nth-child(1n){
+color:#888c94;
+background-color:#edf5fd;
+}
+.list ul li:nth-child(2n){
+color:#888c94;
+background-color:#f5f5f6;
+}
+.enroll{
+left:23px;
+position:relative;
+background-color:#3070a8;
+color:#FFFFFF;
+width:250px;
+height:40px;
+font-family: 'Open Sans', sans-serif;
+font-weight:bold;
+cursor:pointer;
+border-bottom:3px solid #13426b;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+}
+.enroll:hover{
+border-bottom:none;
+}
+.best .enroll{
+background-color:#ee8129;
+border-bottom-color:#b3560b;
+}
+/*TESTIMONIALS*/
+#testi{
+position:relative;
+background:grey url(../images/testimonials.jpg) no-repeat;
+height:315px;
+}
+.nomin{
+color:#ee8129;
+font-size:30px;
+padding-top:50px;
+padding-bottom:55px;
+}
+.client{
+font:bold 30px/1 "Futura Book",sans-serif;
+text-transform:uppercase;
+color:#3170a8;
+}
+#clt1{
+float:left;
+height:106px;
+width:533px;
+}
+.one{background: green url(../images/face1.jpg) no-repeat;}
+.two{background: green url(../images/face2.jpg) no-repeat;}
+
+.face{
+float:left;
+width:100px;
+height:100px;
+}
+#block{
+float:left;
+background-color:#F7F7F7;
+width:365px;
+height:100px;
+position:relative;
+left:20px;
+}
+#block::after {
+content:'';
+position:absolute;
+left:-38px; bottom:30px;
+border:20px solid transparent;
+border-right:20px solid #F7F7F7;
+}
+
+.fc-title{
+border-bottom:1px dotted;
+position:relative;
+height:37px;
+width:332px;
+left:16px;
+font-size:10pt;
+font-family: 'Open Sans Semibold',sans-serif;
+font-style:italic;
+color:#3070a8;
+
+}
+.name-cost{float:left; margin-top:10px;}
+.costumer{float:right; margin-top:10px;}
+
+.coment{
+text-align:left;
+font-style:'Open Sans', 'sans-serif';
+font-size:13pt;
+color:#737373;
+text-align:center;
+line-height:1.5;
+}
+
+/*FOOTER*/
+#footer{
+height:345px;
+}
+#contacts{
+float:left;
+height:345px;
+width:697px;
+}
+#map{
+background: green url(../images/map.jpg) no-repeat;
+float:right;
+height:345px;
+width:703px;
+
+}
+#bottom{
+height:100px;
+width:100%;
+background-color:#3070a8;
+text-align:center;
+color:#FFFFFF;
+padding-top:10px;
+}
+.national{
+color:black;
+}
+#contacts{
+position:relative;
+left:230px;
+height:200px;
+width:400px;
+color:#737373;
+margin-top:35px;
+}
+#contacts p{
+font-family:'sans-serif';
+line-height:2.3;
+margin:0 20px;
+}
+#contacts img{
+position:absolute;
+left:-35px;
+}
+.mail{
+bottom:13px;
+}
+.facbook, .twitter, .inst{
+
+height:45px;
+width:45px;
+margin:10px;
+padding:0;
+position:relative;
+top:250px;
+right:220px;
+}
+.facbook{
+background:url(../images/fbk.png);
+}
+.twitter{
+background:url(../images/tr.png);
+}
+.inst{
+background:url(../images/in.png);
+}
+
